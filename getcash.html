@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="utf-8">
+
+<!-- www.phpied.com/conditional-comments-block-downloads/ -->
+<!--[if IE]><![endif]-->
+
+<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame  -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>WalletAlchemy | Get Cash</title>
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root of your domain and delete these references -->
+<link rel="shortcut icon" href="/favicon.ico">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+<!-- CSS - Setup -->
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/base.css" rel="stylesheet" type="text/css" />
+<link href="css/grid.css" rel="stylesheet" type="text/css" />
+<!-- CSS - Theme -->
+<link id="theme" href="css/themes/light.css" rel="stylesheet" type="text/css" />
+<link id="color" href="css/themes/blue.css" rel="stylesheet" type="text/css" />
+
+<!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
+<script src="js/modernizr-1.5.min.js"></script>
+</head>
+
+<!--[if IE 7 ]>    <body class="ie7"> <![endif]-->
+<!--[if IE 8 ]>    <body class="ie8"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<body>
+<!--<![endif]-->
+<div id="wrapper"> 
+  
+<!-- start header -->
+  <header> 
+    <!-- logo -->
+    <h1 id="logo"><a href="index.html">WalletAlchemy</a></h1>
+    <!-- nav -->
+    <nav>
+      <ul id="nav">
+      	<li><a href="index.html">Home</a></li>
+        <li class="current"><a href="loan.html">Get Cash Now</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+      <br class="cl" />
+    </nav>
+  <br class="cl" />  
+  </header>
+  <!-- end header -->
+
+  <!-- page container -->
+  <div id="page"> 
+    <!-- page title -->
+    <h2 class="ribbon full">Request Cash</h2>
+    <div class="triangle-ribbon"></div>
+    <br class="cl" />
+    <!-- page content -->
+    <div id="page-content" class="two-col container_12">
+	  <p></p>
+      <div id="message"></div>
+      <form method="post" action="processrequest.php">
+		<h3>Request Information</h3>
+		<p>
+			<label for="loan_requested">Cash requested:</label>
+			<select name="loan_requested" id="loan_requested">
+				<option value="100">$100</option>
+				<option value="200">$200</option>
+				<option value="300">$300</option>
+				<option value="400">$400</option>
+				<option value="500" selected="selected">$500</option>
+				<option value="600">$600</option>
+				<option value="700">$700</option>
+				<option value="800">$800</option>
+				<option value="900">$900</option>
+				<option value="1000">$1000</option>
+				<option value="1500">$1500</option>
+				<option value="2000">$2000</option>
+				<option value="over_2000">Over $2000</option>
+			</select>
+        </p>
+		<h3>Shipping Information</h3>
+		<p>
+			<label for="name">Name:</label>
+			<input name="name" id="name" type="text" />
+		</p>
+		<p>
+			<label for="email">Email:</label>
+			<input name="email" id="email" type="text" />
+		</p>
+		<p>
+			<label for="street_address">Street Address:</label>
+			<input name="street_address" id="street_address" type="text" />
+		</p>
+		<p>
+			<label for="city">City:</label>
+			<input name="city" id="city" type="text" class="medium" />
+		</p>
+		<p>
+			<label for="state">State:</label>
+			<select name="state" id="state" />
+				<option value="">--</option>
+				<option value="AK">AK Alaska</option>
+				<option value="AL">AL Alabama</option>
+				<option value="AR">AR Arkansas</option>
+				<option value="AS">AS American Samoa</option>
+				<option value="AZ">AZ Arizona</option>
+				<option value="CA">CA California</option>
+				<option value="CO">CO Colorado</option>
+				<option value="CT">CT Connecticut</option>
+				<option value="CZ">CZ Canal Zone</option>
+				<option value="DC">DC District of Columbia</option>
+				<option value="DE">DE Delaware</option>
+				<option value="FL">FL Florida</option>
+				<option value="GA">GA Georgia</option>
+				<option value="GU">GU Guam</option>
+				<option value="HI">HI Hawaii</option>
+				<option value="IA">IA Iowa</option>
+				<option value="ID">ID Idaho</option>
+				<option value="IL">IL Illinois</option>
+				<option value="IN">IN Indiana</option>
+				<option value="KS">KS Kansas</option>
+				<option value="KY">KY Kentucky</option>
+				<option value="LA">LA Louisiana</option>
+				<option value="MA">MA Massachusetts</option>
+				<option value="MD">MD Maryland</option>
+				<option value="ME">ME Maine</option>
+				<option value="MI">MI Michigan</option>
+				<option value="MN">MN Minnesota</option>
+				<option value="MO">MO Missouri</option>
+				<option value="MP">MP Mariana Islands</option>
+				<option value="MS">MS Mississippi</option>
+				<option value="MT">MT Montana</option>
+				<option value="NC">NC North Carolina</option>
+				<option value="ND">ND North Dakota</option>
+				<option value="NE">NE Nebraska</option>
+				<option value="NH">NH New Hampshire</option>
+				<option value="NJ">NJ New Jersey</option>
+				<option value="NM">NM New Mexico</option>
+				<option value="NV">NV Nevada</option>
+				<option value="NY">NY New York</option>
+				<option value="OH">OH Ohio</option>
+				<option value="OK">OK Oklahoma</option>
+				<option value="OR">OR Oregon</option>
+				<option value="PA">PA Pennsylvania</option>
+				<option value="PR">PR Puerto Rico</option>
+				<option value="RI">RI Rhode Island</option>
+				<option value="SC">SC South Carolina</option>
+				<option value="SD">SD South Dakota</option>
+				<option value="TN">TN Tennessee</option>
+				<option value="TX">TX Texas</option>
+				<option value="UT">UT Utah</option>
+				<option value="VA">VA Virginia</option>
+				<option value="VI">VI Virgin Islands</option>
+				<option value="VT">VT Vermont</option>
+				<option value="WA">WA Washington</option>
+				<option value="WI">WI Wisconsin</option>
+				<option value="WV">WV West Virginia</option>
+				<option value="WY">WY Wyoming</option>
+			</select>
+		</p>
+		<p>
+			<label for="zip_code">Zip Code:</label>
+			<input name="zip_code" id="zip_code" type="text" class="zipcode" />
+		</p>
+		<h3>Retail Credit Card Information</h3>
+		<p>
+			<label for="retailer">Credit Card Retailer:</label>
+			<input name="retailer" id="retailer" type="text" />
+		</p>
+		<p>
+			<label for="retailer">Credit Card Number:</label>
+			<input name="retailer" id="retailer" type="text" />
+		</p>
+		<p>
+			<label for="security_code">Card Security Code:</label>
+			<input name="security_code" id="security_code" type="text" class="small" />
+		</p>
+		<p>
+			<label for="expiration_month">Expiration Month:</label>
+			<select name="expiration_month" id="expiration_month" />
+				<option value="">--</option>
+				<option value="01">January</option>
+				<option value="02">February</option>
+				<option value="03">March</option>
+				<option value="04">April</option>
+				<option value="05">May</option>
+				<option value="06">June</option>
+				<option value="07">July</option>
+				<option value="08">August</option>
+				<option value="09">September</option>
+				<option value="10">October</option>
+				<option value="11">November</option>
+				<option value="12">December </option>
+			</select>
+		</p>
+		<p>
+			<label for="expiration_year">Expiration Year:</label>
+			<select name="expiration_year" id="expiration_year" />
+				<option value="">--</option>
+				<option value="2012">2012</option>
+				<option value="2013">2013</option>
+				<option value="2014">2014</option>
+				<option value="2015">2015</option>
+				<option value="2016">2016</option>
+				<option value="2017">2017</option>
+				<option value="2018">2018</option>
+				<option value="2019">2019</option>
+				<option value="2020">2020</option>
+				<option value="2021">2021</option>
+				<option value="2022">2022</option>
+				<option value="2023">2023</option>
+				<option value="2024">2024</option>
+			</select>
+		</p>
+        <button class="fr" type="submit" id="submit">Submit</button>
+      </form>
+    </div>
+    
+    <!-- page sidebar -->
+    <aside>
+      <h3>Our Address</h3>
+      <p><strong>Corporate Info</strong><br />
+        773 Frist Center<br />
+        Princeton, NJ, 08544<br />
+      <p class="border-top"><strong>Sales Inquiries</strong><br />
+        Email: info@walletalchemy.com<br />
+      </p>
+    </aside>
+    <br class="cl" />
+    <br class="cl" />
+  </div>
+  
+  <!-- footer Start -->
+  <footer>
+    <ul class="footer-nav">
+      <li><a href="about.html">About</a> |</li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <p>Copyright ©2012 WalletAlchemy</p>
+    <br class="cl" />
+  </footer>
+  <!-- footer end -->
+  
+  <!-- Javascript at the bottom for fast page loading --> 
+  <!-- Grab Google CDN's jQuery + jQuery UI. fall back to local if necessary --> 
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script> 
+  <script>!window.jQuery && document.write('<script src="js/jquery-1.4.2.min.js"><\/script>')</script> 
+  <script type="text/javascript" src="js/jquery.tools.min.js"></script> 
+  <script type="text/javascript" src="js/jquery.lightbox-0.5.min.js"></script> 
+  <script type="text/javascript" src="js/jquery.form.js"></script> 
+  <script src="js/cufon-yui.js" type="text/javascript"></script> 
+  <script src="js/Aller.font.js" type="text/javascript"></script> 
+  <script src="js/jquery.tipsy.js" type="text/javascript"></script> 
+  <script src="js/functions.js" type="text/javascript"></script> 
+  <!--[if lt IE 7 ]>
+    <script src="js/dd_belatedpng.js"></script>
+  <![endif]--> 
+</div>
+</body>
+</html>
